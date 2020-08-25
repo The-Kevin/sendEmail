@@ -20,10 +20,10 @@ you can change the email service at "service: <your email service>
 then change the values ​​of "user" and "pass" respectively to the values ​​of your Mail account
 
 in the same way, change the values ​​of the "mailOptions" object
-"from: <sender email>"
-"to: <recipient email>"
-"subject: <email subject>"
-"text: <email text>"
+"from: <<sender email>"
+"to: <<recipient email>"
+"subject: <<email subject>"
+"text: <<email text>"
 
 you can also send email with HTML body replacing the text tag for html tag as commented on app.js
 
