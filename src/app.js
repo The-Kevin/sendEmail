@@ -1,5 +1,4 @@
-const express = require('express');
-const app = express();
+
 const nodemail = require('nodemailer');
 
 let transport = nodemail.createTransport({
@@ -25,6 +24,3 @@ let mailOptions = {
             console.log('Email sent:' + info.response);
         }
     });
-
-
-app.listen(3000);
